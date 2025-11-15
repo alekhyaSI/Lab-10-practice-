@@ -155,7 +155,7 @@ const MutualFundManager = () => {
         </div>
       )}
 
-      <h2>Mutual Fund Management</h2>
+      <h2>Mutual Fund Management App</h2>
 
       <div>
         <h3>{editMode ? 'Edit Fund' : 'Add Fund'}</h3>
