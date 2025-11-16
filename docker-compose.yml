@@ -16,7 +16,7 @@ services:
     image: alekhyasi/docker-backend:latest
     container_name: springboot
     ports:
-      - "2025:2000"
+      - "2024:2090"
     depends_on:
       - mysqldb
     restart: on-failure
@@ -27,7 +27,7 @@ services:
     image: alekhyasi/docker-frontend:latest
     container_name: react
     ports:
-      - "3000:80"
+      - "3010:80"
     depends_on:
       - backend
     restart: on-failure
